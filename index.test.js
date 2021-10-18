@@ -1,4 +1,4 @@
-import addSum from './index';
+const { addSum } = require('./index');
 
 test('test case 1', () => {
   expect(addSum(0,2)).toBe(2);
